@@ -1,0 +1,34 @@
+@colorPrincipal: #153c81;
+
+.border {
+    border: 1px solid red;
+}
+
+header {
+    height: 60px;
+    padding: 5px;
+    background-color: @colorPrincipal;
+
+    .img-home-container {
+        height: 100%;
+        display: flex;
+        cursor: pointer;
+
+        img {
+            height: 80%;
+        }
+    }
+
+    .user {
+        height: 100%;
+
+        img {
+            height: 90%;
+            border-radius: 50%;
+        }
+
+        span {
+            display: inline-block;
+        }
+    }
+}
