@@ -28,32 +28,31 @@
 <body>
   <div class="container-fluid">
     <header class="row">
-      <div class="col-1 d-flex align-items-center justify-content-center">       <!-- Ir a home -->
+      <div class="col-1 d-flex align-items-center">       <!-- Ir a home -->
         <img src="./assets/images/logo.svg" alt="ir a home" class="img-home">
       </div>
-      <nav class="col-10 navbar navbar-light bg-light">       <!-- Menu de navegacion -->
+      <nav class="col-9 offset-1 navbar navbar-light bg-light">       <!-- Menu de navegacion -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Configuracion</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Monitoreo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Resultados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Planes de acción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accesos y permisos</a>
           </li>
         </ul>
-        <!-- <ul>
-          <li>Configuracion</li>
-          <li>Monitoreo</li>
-          <li>Resultados</li>
-          <li>Planes de acción</li>
-          <li>Accesos y permisos</li>
-        </ul> -->
       </nav>
       <div class="col-1 align-items-center user-img-container d-flex">       <!-- Menu de usuario -->
         <img src="./assets/images/user-man.jpg" alt="user" class="user-img" />
-        <p>Jack</p>
+        <p>Omar</p>
         <!-- Flecha: ver mas -->
       </div>
     </header>
@@ -69,7 +68,72 @@
         <button class="report-create">Crear nuevo plan de accion</button> <!-- Nuevo plan de accion -->
       </div>
     </section>
+
     <hr />
+
+    <main class="row">
+      <aside class="col-2">     <!-- Barra lateral -->
+        <div class="profile">       <!-- Perfil -->
+          <img src="./assets/images/user-man.jpg" alt="user" class="user-img"/>
+
+          <h4 class="profile-name">Omar <br /> Crespo</h4>
+        </div>
+        <div>       <!-- Menu de vistas -->
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a href="#" class="nav-link active"> Resumen </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Competencias </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Planes de acción </a>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div>       <!-- Escalas -->
+          <ul class="nav flex-column escalas">
+            <li class="nav-item">
+              <div class="d-flex">
+                <span class="fill red"></span>
+                Insuficiente
+              </div>
+              <span class="clasificacion">(Entre 1.0 y 2.5)</span>
+            </li>
+            <li class="nav-item">
+              <div class="d-flex">
+                <span class="fill yellow"></span>
+                Bajo lo esperado
+              </div>
+              <span class="clasificacion">(Entre 2.5 y 3.0)</span>
+            </li>
+            <li class="nav-item">
+              <div class="d-flex">
+                <span class="fill green"></span>
+                Dentro de lo esperado
+              </div>
+              <span class="clasificacion">(Entre 3.0 y 3.8)</span>
+            </li>
+            <li class="nav-item">
+              <div class="d-flex">
+                <span class="fill light-blue"></span>
+                Sobre lo esperado
+              </div>
+              <span class="clasificacion">(Entre 3.8 y 4.5)</span>
+            </li>
+            <li class="nav-item">
+              <div class="d-flex">
+                <span class="fill dark-blue"></span>
+                Exepcional
+              </div>
+              <span class="clasificacion">(Entre 4.5 y 5.0)</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="col-10"></section>
+    </main>
   </div>
 </body>
 </html>

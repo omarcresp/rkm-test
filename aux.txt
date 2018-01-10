@@ -1,47 +1,4 @@
   <main class="row border">
-    <aside>     <!-- Barra lateral -->
-      <div>       <!-- Perfil -->
-        <img src="./assets/images/user-man.jpg" alt="user" />
-        <p> Jack Cres </p>
-      </div>
-      <div>       <!-- Menu de vistas -->
-        <ul>
-          <li>Resumen</li>
-          <li>Competencias</li>
-          <li>Planes de acción</li>
-        </ul>
-      </div>
-      <hr />
-      <div>       <!-- Escalas -->
-        <ul>
-          <li> 
-            <span></span> 
-            Insuficiente
-            <span>entre 1.0 y 2.5</span>
-          </li>
-          <li>
-            <span></span> 
-            Bajo lo esperado
-            <span>entre 2.5 y 3.0</span>
-          </li>
-          <li>
-            <span></span> 
-            Dentro de lo esperado
-            <span>entre 3.0 y 3.8</span>
-          </li>
-          <li>
-            <span></span> 
-            Sobre lo esperado
-            <span>entre 3.8 y 4.5</span>
-          </li>
-          <li>
-            <span></span> 
-            Exepcional
-            <span>entre 4.5 y 5.0</span>
-          </li>
-        </ul>
-      </div>
-    </aside>
     <section>   <!-- Panel -->
       <article>   <!-- Panel superior -->
         <div>       <!-- Promedio General de desempeño -->
