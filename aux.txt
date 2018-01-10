@@ -1,16 +1,4 @@
   <main class="row border">
-    <section> <!-- Cabezera del reporte -->
-      <div>
-        <button></button> <!-- Boton de ir atras -->
-
-        <h1>Reporte individual de resultados</h1> <!-- Nombre de la ventana -->
-      </div>
-
-      <div>
-        <button>Descargar reporte en PDF</button> <!-- Descargar PDF -->
-        <button>Crear nuevo plan de accion</button> <!-- Nuevo plan de accion -->
-      </div>
-    </section>
     <aside>     <!-- Barra lateral -->
       <div>       <!-- Perfil -->
         <img src="./assets/images/user-man.jpg" alt="user" />

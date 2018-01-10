@@ -1,32 +1,81 @@
-@colorPrincipal: #024f9f;
+/* Variables =====================================================*/
+    @colorPrincipal: #024f9f;
 
-.user-img {
-    border-radius: 50%;
-    height: 2em;
-}
+/* =============================================================== */
 
-header {
-    padding-top: 5px;
-    background-color: @colorPrincipal;
-}
-
-.img-home {
-    height: 40px;
-}
-
-header .navbar-nav {
-    flex-direction: row;
-
-    li {
-        margin-left: 20px;
+/* Estilos Generales y Funciones ================================= */
+    body {
+        background-color: #e9ebee;
     }
-}
 
-.user-img-container {
-    height: 50px;
-
-    p {
-        margin: 0 0 0 8px;
-        color: white;
+    .user-img {
+        border-radius: 50%;
+        height: 2em;
     }
-}
+/* =============================================================== */
+
+/* HEADER ======================================================== */
+    header {
+        padding-top: 5px;
+        background-color: @colorPrincipal;
+        margin-bottom: 15px;
+    }
+
+    .img-home {
+        height: 40px;
+    }
+
+    header .navbar-nav {
+        flex-direction: row;
+
+        li {
+            margin-left: 20px;
+        }
+    }
+
+    .user-img-container {
+        height: 50px;
+
+        p {
+            margin: 0 0 0 8px;
+            color: white;
+        }
+    }
+/* =============================================================== */
+
+/* Report Heading ================================================ */
+   .report-control {
+        
+        h1 {
+            font-size: 1em;
+            margin: 0 0 0 10px;
+        }
+
+        button {
+            height: 2em;
+            width: 50px;
+            border-style: none;
+            border-radius: 5px;
+        }
+    }
+
+    .report-save {
+        button {
+            font-size: 12px;
+            padding: 5px;
+            margin-left: 10px;
+            border-radius: 3px;
+            border-style: solid;
+        }
+
+        .report-download:active {
+            background-color: #ccccdd;
+        }
+
+        .report-create {
+            background-color: #ff7351;
+            color: white;
+            border: 1px #ff7351 solid;
+        }
+    }
+/* =============================================================== */
