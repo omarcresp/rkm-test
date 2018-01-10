@@ -11,70 +11,6 @@
       <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- Less/Main -->
       <link rel="stylesheet/less" href="./assets/less/main.less">
-</head>
-<body>
-  <header>
-    <div>       <!-- Ir a home -->
-
-    </div>
-    <nav>       <!-- Menu de navegacion -->
-      <!-- icono -->
-      <!-- Nombre -->
-    </nav>
-    <div>       <!-- Menu de usuario -->
-      <!-- Foto -->
-      <!-- Nombre -->
-      <!-- Flecha: ver mas -->
-    </div>
-  </header>
-  <main>
-    <aside>     <!-- Barra lateral -->
-      <div>       <!-- Perfil -->
-        <!-- Foto -->
-        <!-- Nombre -->
-      </div>
-      <div>       <!-- Menu de vistas -->
-        <!-- Lista de vistas -->
-      </div>
-      <div>       <!-- Escalas -->
-        <!-- Lista de escalas -->
-          <!-- Color representante -->
-          <!-- Nombre -->
-          <!-- Rango -->
-      </div>
-    </aside>
-    <section>   <!-- Panel -->
-      <article>   <!-- Panel superior -->
-        <div>       <!-- Promedio General de desempeño -->
-          <!-- Titulo -->
-          <!-- Grafico -->
-          <!-- Descripción -->
-        </div>
-        <div>       <!-- Promedio de competencias -->
-          <!-- Titulo -->
-          <!-- Grafico -->
-          <!-- Descripción -->
-          <!-- Barra de estado -->
-          <!-- Total obtenido -->
-        </div>
-        <div>       <!-- Detalles de evaluación -->
-          <!-- Titulo -->
-          <!-- Descripción -->
-          <!-- Barra de estado -->
-          <!-- Total obtenido -->
-        </div>
-      </article>
-      <article>   <!-- Panel inferior -->
-        <!-- titulo -->
-        <!-- lista de competencias -->
-          <!-- Nombre -->
-          <!-- Barra de estado -->
-          <!-- Total obtenido -->
-          <!-- Flecha de mostrar mas -->
-      </article>
-    </section>
-  </main>
-  
   <!-- Codigo JavaScript -->
     <!-- Jquery -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -84,5 +20,131 @@
       <script src="./js/bootstrap.min.js"></script>
     <!-- Less -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>      
+</head>
+<body>
+  <header>
+    <div>       <!-- Ir a home -->
+      <img src="http://www.figueres.cr/img/ico-home.svg" alt="ir a home">
+    </div>
+    <nav>       <!-- Menu de navegacion -->
+      <ul>
+        <li>Configuracion</li>
+        <li>Monitoreo</li>
+        <li>Resultados</li>
+        <li>Planes de acción</li>
+        <li>Accesos y permisos</li>
+      </ul>
+    </nav>
+    <div>       <!-- Menu de usuario -->
+      <img src="./assets/images/user-man.jpg" alt="user" />
+      <span>Jack</span>
+      <!-- Flecha: ver mas -->
+    </div>
+  </header>
+  <main>
+    <section> <!-- Cabezera del reporte -->
+      <div>
+        <button></button> <!-- Boton de ir atras -->
+
+        <h1>Reporte individual de resultados</h1> <!-- Nombre de la ventana -->
+      </div>
+
+      <div>
+        <button>Descargar reporte en PDF</button> <!-- Descargar PDF -->
+        <button>Crear nuevo plan de accion</button> <!-- Nuevo plan de accion -->
+      </div>
+    </section>
+    <aside>     <!-- Barra lateral -->
+      <div>       <!-- Perfil -->
+        <img src="./assets/images/user-man.jpg" alt="user" />
+        <p> Jack Cres </p>
+      </div>
+      <div>       <!-- Menu de vistas -->
+        <ul>
+          <li>Resumen</li>
+          <li>Competencias</li>
+          <li>Planes de acción</li>
+        </ul>
+      </div>
+      <hr />
+      <div>       <!-- Escalas -->
+        <ul>
+          <li> 
+            <span></span> 
+            Insuficiente
+            <span>entre 1.0 y 2.5</span>
+          </li>
+          <li>
+            <span></span> 
+            Bajo lo esperado
+            <span>entre 2.5 y 3.0</span>
+          </li>
+          <li>
+            <span></span> 
+            Dentro de lo esperado
+            <span>entre 3.0 y 3.8</span>
+          </li>
+          <li>
+            <span></span> 
+            Sobre lo esperado
+            <span>entre 3.8 y 4.5</span>
+          </li>
+          <li>
+            <span></span> 
+            Exepcional
+            <span>entre 4.5 y 5.0</span>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <section>   <!-- Panel -->
+      <article>   <!-- Panel superior -->
+        <div>       <!-- Promedio General de desempeño -->
+          <h3>Promedio General de desempeño</h3>
+          <!-- Grafico -->
+          <p> Nivel obtenido </p>
+          <b>Excepcional</b>
+        </div>
+        <div>       <!-- Promedio de competencias -->
+          <h3>Promedio de competencias</h3>
+          <!-- Grafico -->
+          <p> Nivel obtenido </p>
+          <b>Excepcional</b>
+          <!-- Barra de estado -->
+          <p><b>5,0Pts</b> Excepcional</p>
+        </div>
+        <div>       <!-- Detalles de evaluación -->
+          <h3>Detalles de evaluación</h3>
+          <p>Descendente</p>
+          <!-- Barra de estado -->
+          <p><b>5,0Pts</b> Excepcional</p>
+        </div>
+      </article>
+      <article>   <!-- Panel inferior -->
+        <h3>Promedio de competencias</h3>
+        <ul>
+          <li>
+            <p>Capacidad de Planificación y Organización</p>
+            <!-- Barra de estado -->
+            <p><b>5,0Pts</b> Excepcional</p>
+            <!-- Flecha de mostrar mas -->            
+          </li>
+          <li>
+              <p>Orientacion al cliente interno y externo</p>
+              <!-- Barra de estado -->
+              <p><b>5,0Pts</b> Excepcional</p>
+              <!-- Flecha de mostrar mas -->  
+          </li>
+          <li>
+              <p>Excelencia en la ejecucion</p>
+              <!-- Barra de estado -->
+              <p><b>5,0Pts</b> Excepcional</p>
+              <!-- Flecha de mostrar mas -->  
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
 </body>
 </html>
