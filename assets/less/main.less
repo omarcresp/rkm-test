@@ -1,34 +1,32 @@
-@colorPrincipal: #153c81;
+@colorPrincipal: #024f9f;
 
-.border {
-    border: 1px solid red;
+.user-img {
+    border-radius: 50%;
+    height: 2em;
 }
 
 header {
-    height: 60px;
-    padding: 5px;
+    padding-top: 5px;
     background-color: @colorPrincipal;
+}
 
-    .img-home-container {
-        height: 100%;
-        display: flex;
-        cursor: pointer;
+.img-home {
+    height: 40px;
+}
 
-        img {
-            height: 80%;
-        }
+header .navbar-nav {
+    flex-direction: row;
+
+    li {
+        margin-left: 20px;
     }
+}
 
-    .user {
-        height: 100%;
+.user-img-container {
+    height: 50px;
 
-        img {
-            height: 90%;
-            border-radius: 50%;
-        }
-
-        span {
-            display: inline-block;
-        }
+    p {
+        margin: 0 0 0 8px;
+        color: white;
     }
 }

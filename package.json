@@ -2,14 +2,14 @@
   "name": "rkm-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "./js/main.js",
   "scripts": {
-    "build:dev": "webpack-dev-server --entry './index.html'"
+    "build:dev": "webpack-dev-server --entry './js/main.js' --hot"
   },
   "author": "Omar Crespo <crespomerchano@gmail.com> (omarcrespo.com.ve)",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.10.1"
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.10.1"
   }
 }
