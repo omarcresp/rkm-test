@@ -13,6 +13,8 @@
       <link rel="stylesheet" href="./Libs/Bootstrap/css/bootstrap.min.css">
     <!-- Less/Main -->
       <link rel="stylesheet/less" href="./assets/less/main.less">
+    <!-- Materialize fonts -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Codigo JavaScript -->
     <!-- Jquery -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -31,7 +33,8 @@
       <div class="col-1 d-flex align-items-center">       <!-- Ir a home -->
         <img src="./assets/images/logo.svg" alt="ir a home" class="img-home">
       </div>
-      <nav class="col-9 offset-1 navbar navbar-light bg-light">       <!-- Menu de navegacion -->
+
+      <nav class="col-8 offset-1 navbar navbar-light bg-light">       <!-- Menu de navegacion -->
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">Configuracion</a>
@@ -50,15 +53,17 @@
           </li>
         </ul>
       </nav>
-      <div class="col-1 align-items-center user-img-container d-flex">       <!-- Menu de usuario -->
+
+      <div class="col-2 align-items-center user-img-container d-flex justify-content-end"> <!-- Menu de usuario -->
         <img src="./assets/images/user-man.jpg" alt="user" class="user-img" />
         <p>Omar</p>
-        <!-- Flecha: ver mas -->
+        <i class="material-icons">arrow_drop_down</i>
       </div>
     </header>
+
     <section class="row d-flex align-items-center"> <!-- Cabezera del reporte -->
       <div class="col-3 d-flex align-items-center report-control">
-        <button></button> <!-- Boton de ir atras -->
+        <button><i class="material-icons">arrow_back</i></button> <!-- Boton de ir atras -->
 
         <h1>Reporte individual de resultados</h1> <!-- Nombre de la ventana -->
       </div>
@@ -174,84 +179,101 @@
           </div>
           <div class="col-12 competencias">
             <hr />
-            <div class="row competencia">
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Capacidad de Planificación y Organización</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
-            <div class="row competencia">
+            <hr />
+
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Orientacion al Cliente Interno y Externo</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
-            <div class="row competencia">
+            <hr />
+
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Excelencia en la Ejecución</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
-            <div class="row competencia">
+            <hr />
+
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Relaciones Humanas</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
-            <div class="row competencia">
+            <hr />
+
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Comunicación Eficaz</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
-            <div class="row competencia">
+            <hr />
+
+            <div class="row competencia d-flex align-items-center">
               <div class="col-4 nombre">
                 <p><b>Tolerancia a la Presión del Trabajo</b></p>
               </div>
               <div class="barra col-4">
                 <div></div>
               </div>
-              <div class="col-4 clasificacion">
-                <p><b>5,0Pts</b> Excepcional</p>
+              <div class="col-3 clasificacion">
+                <p><b>5,0 Pts</b> Excepcional</p>
               </div>
-              <!-- Flecha de mostrar mas -->            
+              <div class="col-1 flecha-mas">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </div>
             </div>
-            <hr />          
+            <hr />
           </div>
         </article>
       </section>
